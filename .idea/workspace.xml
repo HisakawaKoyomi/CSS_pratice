@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8fb9927-2752-4b9b-9683-fd880110718f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/netease_signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/netease_signin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_comment_module.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,29 +47,76 @@
     <session id="-68909253">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.37" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="2492" />
+          <entry key="html" value="3141" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2492" />
+          <entry key="HTML" value="3141" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="homework_comment_module" value="1" />
+          <entry key="html" value="3" />
+          <entry key="md" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="4" />
+          <entry key="Markdown" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netease_signin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3497">
-              <caret line="178" column="72" selection-start-line="178" selection-start-column="72" selection-end-line="178" selection-end-column="72" />
+            <state>
+              <caret line="237" column="37" lean-forward="true" selection-start-line="237" selection-start-column="37" selection-end-line="237" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/homework_comment_module.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+              <folding>
+                <element signature="e#235#239#0" expanded="true" />
+                <element signature="e#368#372#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Html_study/comment_module/comment_module.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-420" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/好好学习，天天向上/HUST/前端学习/微专业/CSS/CSS作业素材/CSS作业素材/HTML结构代码.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="504">
+                <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -90,6 +138,7 @@
       <list>
         <option value="$PROJECT_DIR$/baidu_homepage.html" />
         <option value="$PROJECT_DIR$/netease_signin.html" />
+        <option value="$PROJECT_DIR$/homework_comment_module.html" />
       </list>
     </option>
   </component>
@@ -99,11 +148,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="57" />
-    <option name="y" value="41" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="5" />
+    <option name="y" value="53" />
     <option name="width" value="1283" />
-    <option name="height" value="769" />
+    <option name="height" value="771" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -113,6 +162,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,13 +179,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/好好学习，天天向上/HUST/前端学习/从零玩转html5/02-CSS部分/代码资料/代码资料/代码" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Html_study/comment_module/comment_module.html" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -151,8 +200,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.netease_signin.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.homework_comment_module.html">
     <configuration name="baidu_homepage.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:56217/CSS_pratice/baidu_homepage.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="homework_comment_module.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CSS_pratice/homework_comment_module.html">
       <method v="2" />
     </configuration>
     <configuration name="netease_signin.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CSS_pratice/netease_signin.html">
@@ -165,9 +217,11 @@
       <item itemvalue="JavaScript Debug.baidu_homepage.html" />
       <item itemvalue="JavaScript Debug.netease_signin.html" />
       <item itemvalue="JavaScript Debug.netease_signin.html (1)" />
+      <item itemvalue="JavaScript Debug.homework_comment_module.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.homework_comment_module.html" />
         <item itemvalue="JavaScript Debug.netease_signin.html (1)" />
         <item itemvalue="JavaScript Debug.netease_signin.html" />
         <item itemvalue="JavaScript Debug.baidu_homepage.html" />
@@ -187,17 +241,18 @@
       <workItem from="1539053007466" duration="9531000" />
       <workItem from="1539239535134" duration="9941000" />
       <workItem from="1539394227623" duration="26521000" />
+      <workItem from="1539657595135" duration="8189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45993000" />
+    <option name="totallyTimeSpent" value="54182000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="121" y="123" width="1283" height="771" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15597016" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15551974" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -249,10 +304,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/homework_comment_module">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Html_study/comment_module.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/好好学习，天天向上/HUST/前端学习/微专业/CSS/CSS作业素材/CSS作业素材/HTML结构代码.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="504">
+            <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/netease_signin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3497">
-          <caret line="178" column="72" selection-start-line="178" selection-start-column="72" selection-end-line="178" selection-end-column="72" />
+        <state>
+          <caret line="237" column="37" lean-forward="true" selection-start-line="237" selection-start-column="37" selection-end-line="237" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Html_study/comment_module/comment_module.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework_comment_module.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+          <folding>
+            <element signature="e#235#239#0" expanded="true" />
+            <element signature="e#368#372#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
