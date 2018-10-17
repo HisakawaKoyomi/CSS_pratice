@@ -3,20 +3,220 @@
 <head>
     <meta charset="utf-8">
     <title>comment_module</title>
+    <style>
+        body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,label,legend,input,textarea,p,blockquote,th,td{
+            margin:0;padding:0;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        textarea::-webkit-input-placeholder {
+            color: #999;
+        }
+        ul,ol{
+            list-style: none;
+        }
+
+        body{
+            font-size: 12px;
+            font-family: "宋体",serif;
+            color: black;
+        }
+
+        header{
+            box-sizing: border-box;
+            width: 640px;
+            height: 160px;
+            margin: 18px auto;
+        }
+        header .top{
+            width: 640px;
+            height: 34px;
+            margin: 6px 0;
+            line-height: 28px;
+            color: #666;
+        }
+
+        header .top span{
+            margin-right: 26px;
+            font-size: 18px;
+            color: black;
+            text-shadow: 1px 0 0 #818181;
+        }
+
+        header .reply{
+            box-sizing: border-box;
+            width: 640px;
+            height: 122px;
+            padding-top: 20px;
+            border-top: 2px solid #c20c0c;
+        }
+
+        header .reply .self{
+            display: block;
+            width: 50px;
+            height: 50px;
+            margin-right: 12px;
+            float: left;
+        }
+        header .reply img{
+            width: 50px;
+            height: 50px;
+        }
+
+        header .reply .my_reply{
+            width: 577px;
+            height: 100px;
+            float: left;
+        }
+
+        header .reply .my_reply textarea{
+            box-sizing: border-box;
+            width: 577px;
+            height: 66px;
+            border: 1px solid #ddd;
+            border-radius: 2px;
+        }
+        header .reply .my_reply .submit{
+            width: 577px;
+            height: 24px;
+            margin-top: 10px;
+            line-height: 24px;
+        }
+        header .reply .my_reply .submit p{
+            color: #9b9b9b;
+            float: left;
+        }
+        header .reply .my_reply .submit input[type=submit]{
+            width: 46px;
+            height: 24px;
+            border: none;
+            border-radius: 2px;
+            float: right;
+            background-color: #2e7ecb;
+            color: white;
+            font-weight: bold;
+        }
+
+        .comment{
+            box-sizing: border-box;
+            width: 640px;
+            height: 891px;
+            margin: 0 auto;
+        }
+
+        .comment li{
+            box-sizing: border-box;
+            width: 640px;
+            height: 80px;
+            border-top: 1px dotted #ccc;
+            padding: 15px 0;
+        }
+        .comment li .user{
+            display: block;
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+            float: left;
+        }
+
+        .comment li .content{
+            width: 455px;
+            height: 65px;
+            float: left;
+            line-height: 20px;
+        }
+        .comment li .content a{
+            color: #0c73c2;
+        }
+
+        .comment li .info{
+            width: 64px;
+            height: 65px;
+            margin-right: 4px;
+            float: right;
+            line-height: 20px;
+            text-align: right;
+            color: #999;
+
+        }
+        .comment li .info a{
+            color: #999;
+        }
+
+
+        .comment li .user img{
+            width: 50px;
+            height: 50px;
+        }
+
+        .pager{
+            box-sizing: border-box;
+            width: 302px;
+            height: 26px;
+            margin: 36px auto;
+        }
+        .pager li{
+            width: 26px;
+            height: 26px;
+            margin: 0 1px;
+            border-radius: 3px;
+            border-color: #ddd;
+            background-color: #eee;
+            float: left;
+            text-align: center;
+            line-height: 26px;
+        }
+        .pager li a{
+            font-weight: bold;
+            color: black;
+        }
+        .pager .prv{
+            width: 70px;
+            color: #ccc;
+        }
+        .pager .prv a{
+            color: #ccc;
+        }
+        .pager .prv a span{
+            color: #bebebe;
+        }
+
+        .pager .nxt{
+            width: 70px;
+        }
+
+        .pager .cur{
+            background: red;
+        }
+        .pager .cur a{
+            color: white;
+        }
+
+        .pager .elip{
+            width: 16px;
+            height: 26px;
+            background-color: white;
+        }
+
+    </style>
 
 </head>
 <body>
+
 <header>
     <div class = "top">
-        <h2>评论<span>共两条评论</span></h2>
+        <p><span>评论</span>共2条评论</p>
     </div>
     <div class = "reply">
-        <a class="self"></a>
+        <a class="self"><img src=" https://hisakawakoyomi.github.io/CSS_pratice/img/avatar0.png" alt="user0"></a>
         <form class="my_reply">
             <textarea name="comment" placeholder="评论"></textarea>
             <div class="submit">
                 <p>130/140</p>
-                <input type="submit">
+                <input type="submit" value="评论">
             </div>
         </form>
 
@@ -26,7 +226,46 @@
 <ul class="comment">
     <li>
         <div class="user">
-            <a href="#"><img src="/img/avatar1.png" alt="user1"></a>
+            <a href="#"><img src=" https://hisakawakoyomi.github.io/CSS_pratice/img/avatar1.png" alt="user1"></a>
+        </div>
+        <div class="content">
+            <p><a href="#">葵葵</a><a href="#" class="vip"><img src="" alt="vip"></a>:很好听哈~</p>
+        </div>
+        <div class="info">
+            <p>28秒前</p>
+            <p><a href="#">删除</a></p>
+        </div>
+    </li>
+
+    <li>
+        <div class="user">
+            <a href="#"><img src=" https://hisakawakoyomi.github.io/CSS_pratice/img/avatar2.png" alt="user2"></a>
+        </div>
+        <div class="content">
+            <p><a href="#">葵葵</a>:很好听哈很好听哈~很好听哈很好听哈~很好听哈很好听哈~很好听哈很好听哈~</p>
+        </div>
+        <div class="info">
+            <p>6月17日</p>
+            <p><a href="#">删除</a></p>
+        </div>
+    </li>
+
+    <li>
+        <div class="user">
+            <a href="#"><img src=" https://hisakawakoyomi.github.io/CSS_pratice/img/avatar3.png" alt="user3"></a>
+        </div>
+        <div class="content">
+            <p><a href="#">葵葵</a>:很适合睡觉的时候听哦很适合睡觉的时候听哦很适合睡觉的时候听哦很好听哈很好听哈~很好听哈很好听哈~很好听哈很好听哈~很好听哈很好听哈~</p>
+        </div>
+        <div class="info">
+            <p>2012-05-29</p>
+            <p><a href="#">删除</a></p>
+        </div>
+    </li>
+
+    <li>
+        <div class="user">
+            <a href="#"><img src=" https://hisakawakoyomi.github.io/CSS_pratice/img/avatar4.png" alt="user4"></a>
         </div>
         <div class="content">
             <p><a href="#">葵葵</a>:很好听哈~</p>
@@ -37,17 +276,108 @@
         </div>
     </li>
 
+    <li>
+        <div class="user">
+            <a href="#"><img src=" https://hisakawakoyomi.github.io/CSS_pratice/img/avatar5.png" alt="user5"></a>
+        </div>
+        <div class="content">
+            <p><a href="#">葵葵</a>:很好的音乐很适合睡觉睡觉睡觉睡觉很好听哈很好听哈很好听哈好听哈很好听哈很好听哈~</p>
+        </div>
+        <div class="info">
+            <p>6月17日</p>
+            <p><a href="#">删除</a></p>
+        </div>
+    </li>
+
+    <li>
+        <div class="user">
+            <a href="#"><img src=" https://hisakawakoyomi.github.io/CSS_pratice/img/avatar6.png" alt="user6"></a>
+        </div>
+        <div class="content">
+            <p><a href="#">葵葵</a>:~很适合睡觉的音乐哦很好听哈很好听哈很适合睡觉的音乐哦很好听哈很好听哈很好听哈很好听哈~很好听哈很好听哈~很好听哈很好听哈~</p>
+        </div>
+        <div class="info">
+            <p>2012-05-29</p>
+            <p><a href="#">删除</a></p>
+        </div>
+    </li>
+
+    <li>
+        <div class="user">
+            <a href="#"><img src=" https://hisakawakoyomi.github.io/CSS_pratice/img/avatar7.png" alt="user7"></a>
+        </div>
+        <div class="content">
+            <p><a href="#">葵葵</a>:睡觉的时候试试看哦睡觉的时候试试看哦睡觉的时候试试看哦很好听哈~很好听哈很好听哈~</p>
+        </div>
+        <div class="info">
+            <p>6月17日</p>
+            <p><a href="#">删除</a></p>
+        </div>
+    </li>
+
+    <li>
+        <div class="user">
+            <a href="#"><img src=" https://hisakawakoyomi.github.io/CSS_pratice/img/avatar8.png" alt="user8"></a>
+        </div>
+        <div class="content">
+            <p><a href="#">葵葵</a>:真的经常听听很放松哈哈很好听哈很好听哈~很很好听哈很好听哈~很好听哈很好听哈~很好听哈很好听哈~</p>
+        </div>
+        <div class="info">
+            <p>28秒前</p>
+            <p><a href="#">删除</a></p>
+        </div>
+    </li>
+
+    <li>
+        <div class="user">
+            <a href="#"><img src=" https://hisakawakoyomi.github.io/CSS_pratice/img/avatar9.png" alt="user9"></a>
+        </div>
+        <div class="content">
+            <p><a href="#">葵葵</a>:很好听哈很好听哈~</p>
+        </div>
+        <div class="info">
+            <p>2012-05-29</p>
+            <p><a href="#">删除</a></p>
+        </div>
+    </li>
+
+    <li>
+        <div class="user">
+            <a href="#"><img src=" https://hisakawakoyomi.github.io/CSS_pratice/img/avatar10.png" alt="user10"></a>
+        </div>
+        <div class="content">
+            <p><a href="#">葵葵</a>:试试看哦试试看的音乐哦试试看哦试试看的音乐哦试试看哦试试看的音乐哦试试看的音乐哦很好听哈很好听哈~</p>
+        </div>
+        <div class="info">
+            <p>2012-05-29</p>
+            <p><a href="#">删除</a></p>
+        </div>
+    </li>
+
+    <li>
+        <div class="user">
+            <a href="#"><img src=" https://hisakawakoyomi.github.io/CSS_pratice/img/avatar11.png" alt="user11"></a>
+        </div>
+        <div class="content">
+            <p><a href="#">葵葵</a>:适合睡觉的时候听呢适合睡觉的时候听呢适合睡觉的时候听呢很适合睡觉的时候听呢很适合睡觉的时候听呢很适合睡觉的时候听呢很适合睡觉的时候听呢~</p>
+        </div>
+        <div class="info">
+            <p>6月17日</p>
+            <p><a href="#">删除</a></p>
+        </div>
+    </li>
+
 </ul>
 
 <ul class="pager">
-    <li class="prv"><a href="#">&lt;上一页</a></li>
+    <li class="prv"><a href="#"><span>&lt;</span>&nbsp;上一页</a></li>
     <li class="cur"><a href="#">1</a></li>
     <li><a href="#">2</a></li>
     <li><a href="#">3</a></li>
     <li><a href="#">4</a></li>
-    ...
+    <li class="elip">...</li>
     <li><a href="#">10</a></li>
-    <li class="nxt"><a href="#">&gt;下一页</a></li>
+    <li class="nxt"><a href="#">&gt;&nbsp;下一页</a></li>
 </ul>
 </body>
 </html>
