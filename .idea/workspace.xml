@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8fb9927-2752-4b9b-9683-fd880110718f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/homework_comment_module.html" beforeDir="false" afterPath="$PROJECT_DIR$/homework_comment_module.html" afterDir="false" />
-    </list>
+    <list default="true" id="f8fb9927-2752-4b9b-9683-fd880110718f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -46,7 +44,7 @@
     <session id="-68909253">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.opened" value="2" />
@@ -91,7 +89,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/homework_comment_module.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10612">
+            <state relative-caret-position="143">
               <caret line="379" column="30" lean-forward="true" selection-start-line="379" selection-start-column="30" selection-end-line="379" selection-end-column="30" />
               <folding>
                 <element signature="e#925#929#0" expanded="true" />
@@ -258,16 +256,15 @@
       <workItem from="1539053007466" duration="9531000" />
       <workItem from="1539239535134" duration="9941000" />
       <workItem from="1539394227623" duration="26521000" />
-      <workItem from="1539657595135" duration="31917000" />
+      <workItem from="1539657595135" duration="32243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77910000" />
+    <option name="totallyTimeSpent" value="78236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14402986" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -365,7 +362,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homework_comment_module.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10612">
+        <state relative-caret-position="143">
           <caret line="379" column="30" lean-forward="true" selection-start-line="379" selection-start-column="30" selection-end-line="379" selection-end-column="30" />
           <folding>
             <element signature="e#925#929#0" expanded="true" />
