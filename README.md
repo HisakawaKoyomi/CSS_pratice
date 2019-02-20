@@ -14,8 +14,8 @@ for CSS pratice; including baidu_homepage, netease_signin, nubia, green_food
 ----------------
 [仿歌单评论页面](https://hisakawakoyomi.github.io/CSS_pratice/comment_module.html)  
 
-[效果图](/comment_pic1.png "仿歌单评论页面")
-[效果图](/comment_pic2.png "仿歌单评论页面")
+[效果图1](/comment_pic1.png "仿歌单评论页面")
+[效果图2](/comment_pic2.png "仿歌单评论页面")
 
 ------------------------
 **后续项目有待添加（如，nubia，green_food）**
