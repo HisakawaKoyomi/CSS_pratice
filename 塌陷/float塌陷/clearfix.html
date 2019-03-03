@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>clearfix</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .container{
+            background: blue;
+        }
+        .container::after{
+            display: block;
+            content: '';
+            height: 0;
+            width: 0;
+            clear: both;
+        }
+
+        .left{
+            width: 100px;
+            height: 100px;
+            background: #f00;
+            float: left;
+        }
+
+        .right{
+            width: 200px;
+            height: 100px;
+            background: #0f0;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="left"></div>
+    <div class="right"></div>
+</div>
+</body>
+</html>

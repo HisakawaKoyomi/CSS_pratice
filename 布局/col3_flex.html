@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            /*这种布局方式，高度由内容决定*/
+            display: flex;
+            justify-content: space-between;
+        }
+        .left{
+            width: 100px;
+            background-color: red;
+        }
+        .right{
+            width: 200px;
+            background-color: yellow;
+        }
+        .middle{
+            background-color: green;
+            flex: 1;
+            /*float对flex中的元素不起作用，也不会使其脱离文档流*/
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="left">left</div>
+    <div class="middle">middle</div>
+    <div class="right">right</div>
+</div>
+</body>
+</html>

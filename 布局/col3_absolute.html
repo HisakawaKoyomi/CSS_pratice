@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>absolute</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container div{
+            min-height: 100px;
+            position: absolute;
+        }
+        .left{
+            width: 100px;
+            background-color: red;
+            left: 0;
+        }
+        .right{
+            width: 200px;
+            background-color: yellow;
+            right: 0;
+        }
+        .middle{
+            background-color: green;
+            left: 100px;
+            right: 200px;
+            /*此处的left与right不加，可能会覆盖左右两栏*/
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="left">left</div>
+    <div class="middle">middle</div>
+    <div class="right">right</div>
+</div>
+</body>
+</html>

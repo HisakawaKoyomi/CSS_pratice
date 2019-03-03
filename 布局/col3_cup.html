@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cup</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 0 300px 0 200px;
+        }
+        .content {
+            float: left;
+            width: 100%;
+            background: #f00;
+        }
+        .left {
+            position: relative;
+            left: -200px;
+            float: left;
+            width: 200px;
+            margin-left: -100%;
+            /*即使是margin-top，相对的也是父类的width！！*/
+            background: #0f0;
+        }
+        .right {
+            position: relative;
+            right: -300px;
+            float: left;
+            width: 300px;
+            margin-left: -300px;
+            background: #00f;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="content">中间内容区域</div>
+    <div class="left">左侧边栏区域</div>
+    <div class="right">右侧边栏区域</div>
+</div>
+</body>
+</html>

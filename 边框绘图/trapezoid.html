@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>trapezoid</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            position: relative;
+            width: 100px;
+            height: 100px;
+            background-color: #561;
+            left: 100px;
+        }
+        div::before{
+            content: "";
+            position: absolute;
+            left: -100px;
+            border: 50px solid transparent;
+            border-right-color: #561;
+            border-bottom-color: #561;
+        }
+        div::after{
+            content: "";
+            position: absolute;
+            right: -100px;
+            border: 50px solid transparent;
+            border-left-color: #561;
+            border-bottom-color: #561;
+        }
+
+    </style>
+</head>
+<body>
+<div></div>
+</body>
+</html>

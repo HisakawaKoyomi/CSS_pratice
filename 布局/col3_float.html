@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>float</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container div{
+            min-height: 100px;
+        }
+        .left{
+            width: 100px;
+            background-color: red;
+            float: left;
+        }
+        .right{
+            width: 200px;
+            background-color: yellow;
+            float: right;
+        }
+        .middle{
+            background-color: green;
+            margin-left: 100px;
+            margin-right: 200px;
+            /*浮动脱离文档流，但仍会占据文字的区域，所以不加margin仍看起来差不多*/
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="left">left</div>
+    <div class="right">right</div>
+    <div class="middle">middle</div>
+    <!--middle必须放在最后，否则按照渲染顺序，后面的元素会被挤下去-->
+</div>
+</body>
+</html>
